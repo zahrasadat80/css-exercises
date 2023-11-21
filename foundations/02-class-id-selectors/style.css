@@ -1,0 +1,18 @@
+.pink {
+    background-color: rgb(241, 165, 178);
+    font-family: verdana , sans-serif;
+}
+.pink.cool{
+    font-size: 24px;
+}
+#num2 {
+    color: rgb(44, 44, 185);
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#num4{
+    background-color: rgba(0, 255, 0, 0.3);
+    font-weight: bold;
+    font-size: 24px;
+}
