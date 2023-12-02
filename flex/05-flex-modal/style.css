@@ -21,9 +21,10 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-  padding: 20PX;
+  padding: 16PX;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
 }
 
 .icon {
@@ -77,16 +78,20 @@ button.cancel {
 .header{
   display: flex;
   justify-content: space-between;
-  align-items: center;
+
+  
 }
 .modal .header .question{
   font-weight: bolder;
   margin-right: auto;
   margin-left: 20px;
+  
+  
 }
 .text{
   margin-left: 60px;
   margin-bottom: 18px;
+  margin-top: -10px;
 }
 .buttons{
   display: flex;
