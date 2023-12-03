@@ -28,7 +28,7 @@ body {
 }
 
 .content{
-  display: flexs;
+  display: flex;
   flex: 1 1 auto;
 }
 
