@@ -33,25 +33,18 @@ body {
 }
 
 .content .sidebar {
-  min-width: 250px;
+  width: 300px;
   background: royalblue;
   box-sizing: border-box;
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: auto;
+  flex-shrink: 0;
   
 }
 
 .content .text{
   display: flex;
   flex-wrap: wrap;
-  text-wrap: wrap;
-  justify-content:  space-around;
-  gap: 20px;
-  padding: 30px;
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: auto;
+  margin: 30px;
+  gap: 10px;
   
 }
 
@@ -59,9 +52,9 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  /* width: 200px; */
-  flex: 1 1 200px;
-  
+  width: 300px;
+  padding: 10px;
+   
 }
 a {
   text-decoration: none;
@@ -71,4 +64,5 @@ li{
   list-style: none;
   padding: 5px;
   padding-left: 0;
+  font-size: x-large;
 }
